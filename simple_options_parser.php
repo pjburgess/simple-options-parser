@@ -1,6 +1,6 @@
 <?php
 
-class OptionsParser
+class SimpleOptionsParser
 {
 	const DOUBLE_DASH_WITH_VALUE_REGEX = '/^--(\S+?)=(.*)$/';
 	const DOUBLE_DASH_REGEX = '/^--(\S+)$/';
