@@ -5,7 +5,7 @@ class SimpleOptionsParser
 	const DOUBLE_DASH_WITH_VALUE_REGEX = '/^--(\S+?)=(.*)$/';
 	const DOUBLE_DASH_REGEX = '/^--(\S+)$/';
 	const SINGLE_DASH_REGEX = '/^-(\S+)$/';
-	const PARAM_REGEX = '/^-(-|\.$|[^\d\.])/';
+	const PARAM_REGEX = '/^-(-?\S+)/';
 
 	public function parse(array $args = null)
 	{
